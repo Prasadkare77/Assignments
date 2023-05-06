@@ -1,0 +1,75 @@
+*{
+    font-family: 'Roboto Flex', sans-serif;
+}
+body{
+    background-color: #6495ed;
+}
+.container{
+    width: 350px;
+    margin-left: 475px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+.heading{
+    padding-top: 15px;
+    font-size: large;
+}
+hr{
+    margin-bottom: 15px;
+    opacity: 10px;
+}
+.para{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px; 
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+}
+.form{
+    margin-top: 20px;
+}
+label{
+    font-size: medium;
+    font-weight: 500;
+}
+sup{
+    color: red;
+}
+#email{
+    width: 335px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 30px;
+}
+#text{
+    width: 340px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 10px;
+    font-size: medium;
+}
+#text::placeholder{
+    padding-left: 50ppx;
+    padding-top: 10px;
+}
+button{
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    font-size: medium;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Application</title>
+        <!-- <style>
+            table{
+                border: 2px solid black;
+            }
+        </style> -->
+    </head>
+    <body>
+        <h4>Employee Application</h4>
+        <form>
+            <fieldset>
+                <legend>Student Registration Form</legend>
+              
+            
+            <table>
+                <tbody>
+    
+                    <tr>
+                        <td><lable for="fullname">Full Name</lable></td>
+                        <td><input type="text" id="fullname" autofocus required maxlength="40"></td>
+                    </tr>
+    
+                    <tr>
+                        <td><lable for="email">Email Address</lable></td>
+                        <td><input type="email" id="email" required placeholder="Ex. abc@gmail.com"></td>
+                    </tr>
+    
+                    <tr>
+                        <td><lable for="password">Password</lable></td>
+                        <td><input type="password" id="password" required></td>
+                    </tr>
+    
+                    <tr>
+                        <td><lable for="contactNo">Contact No</lable></td>
+                        <td><input type="number" id="contactNo" required numbers></td>
+                    </tr>
+    
+                    <tr>
+                        <td><lable for="photo">Profile Photo</lable></td>
+                        <td><input type="file" id="photo"></td>
+                    </tr>
+                
+                    <tr>
+                        <td><lable for="dob">Date of Birth</lable></td>
+                        <td><input type="date" id="dob" min="2000-01-01" max="2020-01-01" required></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td><lable for="gender">Gender</lable></td>
+                        <td>
+                            <input type="radio" id="gender" name="gender">Male
+                            <input type="radio" id="gender" name="gender">Female
+                            <input type="radio" id="gender" name="gender">Other
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td><lable for="marital">Marital Status</lable></td>
+                        <td>
+                            <input type="radio" id="marital" name="yes">Yes
+                            <input type="radio" id="marital" name="yes">No
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td><lable for="tech">Known Tools & Technology</lable></td>
+                        <td>
+                            <input type="checkbox" id="tech">Angular
+                            <input type="checkbox" id="tech">React
+                            <input type="checkbox" id="tech">Python
+                            <input type="checkbox" id="tech">Java
+                            <input type="checkbox" id="tech">JenKin
+                            <input type="checkbox" id="tech">Git
+                            <input type="checkbox" id="tech">Database
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Designation</label></td>
+                        <td>
+                            <select>
+                                <option>UI Developer</option>
+                                <option>Backend Developer</option>
+                                <option>FullStak Developer</option>
+                                <option>DevOps Engineer</option>
+                                <option>Software Tester</option>
+                            </select> 
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Country</label></td>
+                        <td><input type="text" value="India" readonly></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Present Address</label></td>
+                        <td><textarea></textarea></td>
+                    </tr>
+    
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                        <td><button type="reset">Clear</button></td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </fieldset>
+        </form>
+    </body>
+</html>

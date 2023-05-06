@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  margin-top: 0;
+}
+.container {
+  width: 531px;
+  background-color: white;
+  margin-left: 375px;
+  margin-top: 0;
+}
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 75px;
+}
+i {
+  width: 20px;
+  height: 20px;
+  color: green;
+  margin-left: 50px;
+  size: 20px;
+}
+p {
+  width: 400px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 430;
+}
+span {
+  color: cadetblue;
+}
+.img {
+  margin-top: 30px;
+}
