@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.basicContainer{
+    margin: 150px 0px 0px 200px;
+    width: 19%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: #FFFFFA;
+    box-shadow: 3px 10px 10px -8px rgb(82, 80, 80);
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+}
+.basicContainer .basics{
+    text-align: center;
+    background-color: #16a085;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+} 
+.basicContainer .basics h4{
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.basicContainer ul{
+    margin: 10px 0px 0px 50px;
+    color: black;
+    font-size: small;
+    list-style: none;
+}
+.basicContainer ul li{
+    font-size: medium;
+}
+.basicContainer ul li #check{
+    color: #16a085;
+}
+.basicContainer ul li #cross{
+    color: #c0392b;
+}
+.basicContainer .price h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0px 0px 10px;
+}
+.basicContainer button{
+    text-align: center;
+    color: #FFFFFA;
+    padding: 10px 50px 10px 50px;
+    margin: 10px 5px 30px 35px;
+    background-color: #16a085;
+    border-radius: 10px;
+    border-color: #FFFFFA;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Standard Container */
+.standardContainer {
+    margin: 120px 0px 0px 40px;
+    width: 19%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: #FFFFFA;
+    box-shadow: 3px 10px 10px -8px rgb(82, 80, 80);
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+    position: absolute;
+}
+.standardContainer .standard{
+    text-align: center;
+    background-color: #c0392b;
+    border-radius: 10px;
+} 
+.standardContainer .standard h4{
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.standardContainer ul{
+    margin: 10px 0px 0px 50px;
+    color: black;
+    font-size: small;
+    list-style: none;
+}
+.standardContainer ul li{
+    font-size: medium;
+}
+.standardContainer ul li #check{
+    color: #16a085;
+}
+.standardContainer ul li #cross{
+    color: #c0392b;
+}
+.standardContainer .price h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0px 0px 10px;
+}
+.standardContainer button{
+    text-align: center;
+    color: #FFFFFA;
+    padding: 10px 50px 10px 50px;
+    margin: 10px 5px 30px 35px;
+    background-color: #16a085;
+    border-radius: 10px;
+    border-color: #FFFFFA;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* standardContainer2 */
+.standardContainer2 {
+    margin: 150px 0px 0px 345px;
+    width: 19%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: #FFFFFA;
+    box-shadow: 3px 10px 10px -8px rgb(82, 80, 80);
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+.standardContainer2 .standard{
+    text-align: center;
+    background-color: #16a085;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+} 
+.standardContainer2 .standard h4{
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.standardContainer2 ul{
+    margin: 10px 0px 0px 50px;
+    color: black;
+    font-size: small;
+    list-style: none;
+}
+.standardContainer2 ul li{
+    font-size: medium;
+}
+.standardContainer2 ul li #check{
+    color: #16a085;
+}
+.standardContainer2 ul li #cross{
+    color: #c0392b;
+}
+.standardContainer2 .price h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0px 0px 10px;
+}
+.standardContainer2 button{
+    text-align: center;
+    color: #FFFFFA;
+    padding: 10px 50px 10px 50px;
+    margin: 10px 5px 30px 35px;
+    background-color: #16a085;
+    border-radius: 10px;
+    border-color: #FFFFFA;
+    font-size: larger;
+    font-weight: bold;
+}
