@@ -18,25 +18,31 @@
             h3{
                 text-transform: uppercase;
             }
-            #bill{
+            #labelbill{
                 margin-left: 20px;
                 margin-right: 150px;
                 padding-bottom: 100px;
             }
-            #discount{
+            #labeldiscount{
                 margin-left: 20px;
                 margin-right: 70px;
             }
             #totalDisc{
                 margin: 50px;
             }
-            input[type="number"]{
+            input[type="bill"]{
                 width: 250px;
                 margin: 10px;
                 padding: 10px;
                 border-radius: 50px;
             }
-            button{
+            input[type="discount"]{
+                width: 250px;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 50px;
+            }
+            #calculate{
                 margin: 20px;
                 background: #2ecc71 ;
                 color: white;
@@ -44,9 +50,22 @@
                 padding-left: 30px;
                 padding-right: 30px;
                 font-family: 'Itim', cursive;
-                font-size: larger;  
+                font-size: larger; 
+                display: inline-block; 
             }
-            button:hover{
+            #reset{
+                margin: 0px 0px 20px 20px;
+                background: #2ecc71 ;
+                color: white;
+                border-radius: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                font-family: 'Itim', cursive;
+                font-size: larger;  
+                position: relative;
+                display: inline-block;
+            }
+            #calculate:hover{
                 background: burlywood;
                 border-radius: 20px;
             }
@@ -60,13 +79,62 @@
             <h3>Discount Calculator</h3>
             <h4>Enter the bill amount and discount in percentage</h4>
             <form>
-                <label id="bill">Bill Amount</label>
-                <input type="number"><br>
-                <label id="discount">Discount Percentage</label>
-                <input type="number"><br>
-                <button type="submit">Calculate</button><br>
-                <label id="totalDisc">Total Discount Amount==</label>
+                <label id="labelbill">Bill Amount</label>
+                <input type="bill" id="bill"><br>
+                <label id="labeldiscount">Discount Percentage</label>
+                <input type="discount" id="discount"><br>
+                <button id="calculate" type="button">Calculate</button><br>
+                <button id="reset" type="reset">Reset</button><br>
+                <label id="totalDisc">Total Discount Amount == </label>
             </form>
         </fieldset>
+
+        <script>
+            const bill = document.querySelector('#bill');
+            const discount = document.querySelector('#discount');
+            const calculator = document.querySelector('#calculate');
+            const total = document.querySelector('#totalDisc');
+
+            calculator.addEventListener('click', () => {
+                const billValue = bill.value;
+                const discountValue = discount.value;
+                const valid = isValid(discountValue);
+                const validAmount = isValidAMount(billValue);
+                if(valid){
+                    const discountAmount = billValue - (billValue * discountValue) / 100;
+                    console.log(discountAmount);
+                    total.innerHTML = `Total Amount to pay is: ${discountAmount}`;
+                }
+                else{
+                    alert(`Entered discount is not correct: ${discountValue}`)
+                }
+
+                if (validAmount) {
+                    const discountAmount = billValue - (billValue * discountValue) / 100;
+                    console.log(discountAmount);
+                    total.innerHTML = `Total Amount to pay is: ${discountAmount}`;
+                }
+                else{
+                    alert(`Entered amount is not correct: ${billValue}`) 
+                    
+                }
+            });
+            function isValid(discount){
+                if(discount<=0 || discount>100){
+                    return false;
+                }else{
+                    return true;
+                }
+            }
+            function isValidAMount(bill){
+                if(bill<0){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+
+        </script>
     </body>
 </html>

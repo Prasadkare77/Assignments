@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+.container1{
+    width: 22%;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.container1 .logo img{
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+.container1 .mongoDiff h4{
+    text-align: center;
+    color: white;
+    background-color: #27ae60;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container1 .mongoDiff p{
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.container2{
+    width: 22%;
+    display: inline-block;
+    position: relative;
+    margin-left: 330px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.container2 .logo img{
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    
+}
+.container2 .mongoDiff h4{
+    text-align: center;
+    color: white;
+    background-color: #f39c12;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container2 .mongoDiff p{
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
